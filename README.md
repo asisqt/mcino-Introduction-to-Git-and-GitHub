@@ -1,17 +1,25 @@
-# GitHub Final Project
+# Simple Interest Calculator
 
-This repository contains the final project for the Git and GitHub course. It demonstrates basic Git workflows, including cloning, modifying files, and pushing changes back to a remote repository.
+## Overview
+This repository contains a straightforward Bash script designed to calculate simple interest based on user-provided inputs. It is built to demonstrate fundamental scripting capabilities and version control workflows.
 
-## Contents
+## Understanding Simple Interest
+Simple interest is a quick and easy method of calculating the interest charge on a loan or the return on an investment. 
 
-This project includes basic scripts for calculating interest:
+The mathematical formula used for this script's calculation is:
+**Simple Interest = (Principal * Rate * Time) / 100**
 
-* **`simple-interest.sh`**: A Bash script that calculates simple interest based on principal, rate, and time.
-* **`compound_interest.py`**: A Python script that calculates compound interest.
+Where:
+* **Principal (P):** The initial amount of money borrowed or invested.
+* **Rate (R):** The annual interest rate (in percentage).
+* **Time (T):** The duration for which the money is borrowed or invested, usually measured in years.
 
-## How to Use
+## Prerequisites
+To execute this calculator, you will need:
+* A Linux/Unix-based terminal environment (such as native Linux, macOS Terminal, WSL, or Git Bash).
+* The Bash shell installed (which comes standard on most Linux distributions).
 
-To run the bash script, use the following command in your terminal:
-
-```bash
-bash simple-interest.sh
+## Installation and Setup
+1. Clone this repository to your local machine:
+   ```bash
+   git clone [https://github.com/asisqt/github-final-project.git](https://github.com/asisqt/github-final-project.git)
